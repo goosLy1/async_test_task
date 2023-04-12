@@ -1,0 +1,4 @@
+[nitpick.styles]
+include = [
+    "https://gitea.radium.group/radium/project-configuration/src/branch/master/nitpick"
+]

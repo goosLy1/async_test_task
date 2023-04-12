@@ -1,0 +1,16 @@
+[build-system]
+requires = [ "poetry-core>=1.0.0",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.extras]
+lint = [ "pylint",]
+
+[tool.poetry.dependencies.pylint]
+version = "*"
+optional = true
